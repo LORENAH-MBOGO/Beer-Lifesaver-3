@@ -25,14 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        startActivity(new Intent(MainActivity.this, SplashActivity.class));
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        // close splash activity
-        finish();
 
 
         aboutButton.setOnClickListener(new View.OnClickListener() {
