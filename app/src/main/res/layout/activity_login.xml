@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/beer"
+        android:src="@drawable/beer_anim"
         android:id="@+id/imageView"
         android:alpha="0.8"
         android:scaleType="centerCrop"
