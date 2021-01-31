@@ -6,11 +6,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.skylar.beer_lifesaver.BeerStyleDetailActivity;
+import com.skylar.beer_lifesaver.BeerStyleDetailFragment;
+import com.skylar.beer_lifesaver.BeerStyleListActivity;
 import com.skylar.beer_lifesaver.R;
 
 import org.parceler.Parcels;
@@ -74,11 +77,9 @@ public class BeerStyleListAdapter extends RecyclerView.Adapter<BeerStyleListAdap
 
         @Override
         public void onClick(View v) {
-            int itemPosition = getLayoutPosition();
-            Intent intent = new Intent(mContext, BeerStyleListAdapter.class);
-            intent.putExtra("position", itemPosition);
-            intent.putExtra("beerStyles", Parcels.wrap(mBeerStyles));
-            mContext.startActivity(intent);
+            mBeerStyles.get(getLayoutPosition()).getDescription();
+            Intent intent = new Intent (mContext, BeerStyleDetailActivity.class);
+
         }
     }
 }
