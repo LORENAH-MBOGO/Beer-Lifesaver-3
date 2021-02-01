@@ -21,5 +21,10 @@ public class CameraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
 
+        //Initialize Views
+        btnChoose = (Button) findViewById(R.id.btnChoose);
+        btnUpload = (Button) findViewById(R.id.btnUpload);
+        imageView = (ImageView) findViewById(R.id.imgView)
+
     }
 }
