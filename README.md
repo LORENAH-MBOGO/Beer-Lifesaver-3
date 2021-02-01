@@ -1,5 +1,5 @@
 # Beer Lifesaver!
-#### Jan 16th 2021
+#### Jan 29th 2021
 
 ![Beer Lifesaver](http://github.com/LORENAH-MBOGO/Beer-Lifesaver/screenshots/beer.png) 
 
@@ -17,7 +17,7 @@ Beer Lifesaver! is a mobile application that is built on Android framework to al
 Java
 
 ## Installation
-* `https://github.com/LORENAH-MBOGO/Beer-Lifesaver` this repository
+* `https://github.com/LORENAH-MBOGO/Beer-Lifesaver-3` this repository
 
 * `cd Beer-Lifesaver`
 
@@ -37,9 +37,15 @@ Java
 
 ```bash
 View About Us section
+Sign up
+Sign in
 Navigate to search page
 Enter any beer style in search bar 
 View different names of beerstyles
+Create New Beerstyle
+Upload and Save Beerstyle images from your gallery
+Sign out
+
 
 
 ```
@@ -48,7 +54,7 @@ View different names of beerstyles
 
 ```bash
 
-https://github.com/LORENAH-MBOGO/Beer-Lifesaver
+https://github.com/LORENAH-MBOGO/Beer-Lifesaver-3
 
 ```
 
