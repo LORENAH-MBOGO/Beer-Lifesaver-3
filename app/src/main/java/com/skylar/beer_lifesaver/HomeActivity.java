@@ -29,7 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomeActivity extends AppCompatActivity {
     private DatabaseReference mBeerStyleReference;
     ;
     private SharedPreferences mSharedPreferences;
@@ -42,8 +42,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     Button mFindBeerStyle;
     @BindView(R.id.tLogo)
     TextView mLogo;
-    @BindView(R.id.bSaved)
-    Button mSaved;
+    @BindView(R.id.camera)
+    Button camera;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,24 +111,18 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         };
 
-    }
 
-    @Override
-    public void onClick(View view) {
-        if (view == mFindBeerStyle) {
-            String userInput = mBeerInput.getText().toString();
-            if (!(userInput).equals("")) {
-                addToSharedPreferences(userInput);
+  camera.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick (View view) {
+            if (view == camera) {
+
+                Intent intent = new Intent(HomeActivity.this, CameraActivity.class);
+
+                startActivity(intent);
             }
-            Intent intent = new Intent(HomeActivity.this, BeerStyleListActivity.class);
-            intent.putExtra("userInput", userInput);
-            startActivity(intent);
-            finish();
         }
-        if (view == mSaved) {
-            Intent intent = new Intent(HomeActivity.this, CameraActivity.class);
-        }
-
+  });
     }
 
     @Override

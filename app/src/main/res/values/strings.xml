@@ -20,5 +20,6 @@
     <string name="splash">created_by</string>
     <string name="created_by_Skylar">create</string>
     <string name="Save_your_style_today">catch</string>
-    <string name="take_photo">cam</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="Save_your_style_here">Save your style here</string>
 </resources>
