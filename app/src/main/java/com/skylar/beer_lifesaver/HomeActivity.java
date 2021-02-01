@@ -126,7 +126,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             finish();
         }
         if (view == mSaved) {
-            Toast.makeText(this, "Sorry... currently unavailable!", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(HomeActivity.this, CameraActivity.class);
         }
 
     }
