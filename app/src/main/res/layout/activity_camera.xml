@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/NoActionBarTheme"
     tools:context=".CameraActivity">
 
 
@@ -20,21 +21,24 @@
 
             android:id="@+id/btnChoose"
             android:text="Choose"
+            android:textStyle="italic"
+            android:textColor="@color/white"
             android:padding="@dimen/cardview_compat_inset_shadow"
             android:layout_weight="1"
             android:textAlignment="center"
             android:layout_width="0dp"
-            android:background="@color/colorAccent"
-
+            android:background="@color/colorSecondaryText"
             android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btnUpload"
             android:text="Upload"
+            android:textStyle="italic"
+
             android:layout_weight="1"
             android:textAlignment="center"
-            android:background="@color/colorAccent"
-
+            android:background="@color/design_default_color_secondary_variant"
+android:textColor="@color/white"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
 
@@ -46,10 +50,11 @@
         android:fontFamily="cursive"
         android:id="@+id/tLogo"
         android:layout_marginTop="146dp"
-        android:textSize="60sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
         android:layout_centerHorizontal="true" />
 
     <ImageView
