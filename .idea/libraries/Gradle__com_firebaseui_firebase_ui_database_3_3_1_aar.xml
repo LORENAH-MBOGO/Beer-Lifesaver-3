@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.firebaseui:firebase-ui-database:3.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/593efcec97377237db5d2ce6e63c58f6/jetified-firebase-ui-database-3.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/593efcec97377237db5d2ce6e63c58f6/jetified-firebase-ui-database-3.3.1/res" />
-      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/593efcec97377237db5d2ce6e63c58f6/jetified-firebase-ui-database-3.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/5314dcd93921d9b9942c7535cfa99d79/jetified-firebase-ui-database-3.3.1/res" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/5314dcd93921d9b9942c7535cfa99d79/jetified-firebase-ui-database-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/5314dcd93921d9b9942c7535cfa99d79/jetified-firebase-ui-database-3.3.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/3.3.1/f9888c810a5d9bbb5cfd2768eec4a4166fe89246/firebase-ui-database-3.3.1-javadoc.jar!/" />

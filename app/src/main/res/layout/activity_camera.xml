@@ -4,58 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/beerr"
     android:theme="@style/NoActionBarTheme"
     tools:context=".CameraActivity">
 
 
     <LinearLayout
         android:id="@+id/layout_button"
-        android:orientation="horizontal"
-        android:layout_alignParentTop="true"
-        android:weightSum="2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
 
 
         <Button
 
             android:id="@+id/btnChoose"
-            android:text="Choose"
-            android:textStyle="italic"
-            android:textColor="@color/white"
-            android:padding="@dimen/cardview_compat_inset_shadow"
-            android:layout_weight="1"
-            android:textAlignment="center"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@color/colorSecondaryText"
-            android:layout_height="wrap_content" />
+            android:padding="@dimen/cardview_compat_inset_shadow"
+            android:text="Choose"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/btnUpload"
-            android:text="Upload"
-            android:textStyle="italic"
-
-            android:layout_weight="1"
-            android:textAlignment="center"
-            android:background="@color/design_default_color_secondary_variant"
-android:textColor="@color/white"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_secondary_variant"
+            android:text="Upload"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
 
     </LinearLayout>
+
     <TextView
+        android:id="@+id/tLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Save_your_style_here"
-        android:fontFamily="cursive"
-        android:id="@+id/tLogo"
-        android:layout_marginTop="146dp"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
         android:background="@color/colorAccent"
-        android:layout_centerHorizontal="true" />
+        android:fontFamily="cursive"
+        android:text="@string/Save_your_style_here"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imgView"

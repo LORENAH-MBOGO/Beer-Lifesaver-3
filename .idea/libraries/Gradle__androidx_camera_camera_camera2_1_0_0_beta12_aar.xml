@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.camera:camera-camera2:1.0.0-beta12@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/366d3d2669eb9820e6d204a13cb8902b/jetified-camera-camera2-1.0.0-beta12/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/ae369c7f37598df073fa4c3637b674a4/jetified-camera-camera2-1.0.0-beta12/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/366d3d2669eb9820e6d204a13cb8902b/jetified-camera-camera2-1.0.0-beta12/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/366d3d2669eb9820e6d204a13cb8902b/jetified-camera-camera2-1.0.0-beta12/res" />
-      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/366d3d2669eb9820e6d204a13cb8902b/jetified-camera-camera2-1.0.0-beta12/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/ae369c7f37598df073fa4c3637b674a4/jetified-camera-camera2-1.0.0-beta12/res" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/ae369c7f37598df073fa4c3637b674a4/jetified-camera-camera2-1.0.0-beta12/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/ae369c7f37598df073fa4c3637b674a4/jetified-camera-camera2-1.0.0-beta12/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

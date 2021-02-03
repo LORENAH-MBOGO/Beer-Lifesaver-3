@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/080ba1d3c83c329e4eb7ff0c53928927/jetified-activity-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/080ba1d3c83c329e4eb7ff0c53928927/jetified-activity-1.0.0/res" />
-      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/080ba1d3c83c329e4eb7ff0c53928927/jetified-activity-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/0c6a2007230dc3432bb5277430ffa586/jetified-activity-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/0c6a2007230dc3432bb5277430ffa586/jetified-activity-1.0.0/res" />
+      <root url="file://$USER_HOME$/Downloads/ErrandsGo-master/caches/transforms-2/files-2.1/0c6a2007230dc3432bb5277430ffa586/jetified-activity-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

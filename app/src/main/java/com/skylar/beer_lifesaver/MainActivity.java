@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static java.lang.Thread.sleep;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.loginButton)
@@ -27,19 +26,21 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         aboutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(intent);
-
+                                           @Override
+                                           public void onClick(View v) {
+                                               Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                                               startActivity(intent);
+                                           }
+                                       });
 
                 loginButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                        startActivity(intent);
+                                                   @Override
+                                                   public void onClick(View v) {
+                                                       Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                                                       startActivity(intent);
 
-
+                                                   }
+                                               });
                         signUpButton.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
@@ -48,8 +49,4 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                     }
-                });
-            }
-        });
-    }
-}
+                }
